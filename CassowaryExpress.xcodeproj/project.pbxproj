@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FEEF8FD2C20744200EFD563 /* CassowaryExpressApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEEF8FC2C20744200EFD563 /* CassowaryExpressApp.swift */; };
+		0FEEF8FF2C20744200EFD563 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEEF8FE2C20744200EFD563 /* ContentView.swift */; };
+		0FEEF9012C20744200EFD563 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEEF9002C20744200EFD563 /* Item.swift */; };
+		0FEEF9032C20744600EFD563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FEEF9022C20744600EFD563 /* Assets.xcassets */; };
+		0FEEF9062C20744600EFD563 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FEEF9052C20744600EFD563 /* Preview Assets.xcassets */; };
+		0FEEF9102C20744700EFD563 /* CassowaryExpressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEEF90F2C20744700EFD563 /* CassowaryExpressTests.swift */; };
+		0FEEF91A2C20744700EFD563 /* CassowaryExpressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEEF9192C20744700EFD563 /* CassowaryExpressUITests.swift */; };
+		0FEEF91C2C20744700EFD563 /* CassowaryExpressUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEEF91B2C20744700EFD563 /* CassowaryExpressUITestsLaunchTests.swift */; };
+		0FEEF9292C20756400EFD563 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEEF9282C20756400EFD563 /* MapView.swift */; };
+		0FEEF92B2C20757A00EFD563 /* MapOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEEF92A2C20757A00EFD563 /* MapOverlayView.swift */; };
+		0FEEF92F2C2075B900EFD563 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEEF92E2C2075B900EFD563 /* LocationManager.swift */; };
+		0FEEF9332C2075E800EFD563 /* SharedMapData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEEF9322C2075E800EFD563 /* SharedMapData.swift */; };
+		0FEEF9372C20760E00EFD563 /* SharedMapData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEEF9322C2075E800EFD563 /* SharedMapData.swift */; };
+		0FEEF9392C20761300EFD563 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEEF92E2C2075B900EFD563 /* LocationManager.swift */; };
+		0FEEF9412C207F3B00EFD563 /* gtfs-realtime_1007_extension.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEEF9402C207F3B00EFD563 /* gtfs-realtime_1007_extension.pb.swift */; };
+		0FEEF9462C207FA300EFD563 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0FEEF9452C207FA300EFD563 /* Config.plist */; };
+		0FEEF9482C2082A500EFD563 /* gtfs-realtime_1007_extension.proto__0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0FEEF9472C2082A500EFD563 /* gtfs-realtime_1007_extension.proto__0.txt */; };
+		5629C4304A7687C083AE795B /* Pods_CassowaryExpressTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0606EB1EE2686D345E4BE1E3 /* Pods_CassowaryExpressTests.framework */; };
+		619949DE86A87FBAABC76EB4 /* Pods_CassowaryExpress_CassowaryExpressUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA746240F5941B01D65C58ED /* Pods_CassowaryExpress_CassowaryExpressUITests.framework */; };
+		6F5BEF43DAA8B686F888798D /* Pods_CassowaryExpress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDA6705351E6D4E1412EA6F /* Pods_CassowaryExpress.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FEEF90C2C20744700EFD563 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FEEF8F12C20744100EFD563 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FEEF8F82C20744100EFD563;
+			remoteInfo = CassowaryExpress;
+		};
+		0FEEF9162C20744700EFD563 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FEEF8F12C20744100EFD563 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FEEF8F82C20744100EFD563;
+			remoteInfo = CassowaryExpress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0606EB1EE2686D345E4BE1E3 /* Pods_CassowaryExpressTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CassowaryExpressTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FEEF8F92C20744100EFD563 /* CassowaryExpress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CassowaryExpress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FEEF8FC2C20744200EFD563 /* CassowaryExpressApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassowaryExpressApp.swift; sourceTree = "<group>"; };
+		0FEEF8FE2C20744200EFD563 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0FEEF9002C20744200EFD563 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		0FEEF9022C20744600EFD563 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FEEF9052C20744600EFD563 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FEEF90B2C20744700EFD563 /* CassowaryExpressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CassowaryExpressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FEEF90F2C20744700EFD563 /* CassowaryExpressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassowaryExpressTests.swift; sourceTree = "<group>"; };
+		0FEEF9152C20744700EFD563 /* CassowaryExpressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CassowaryExpressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FEEF9192C20744700EFD563 /* CassowaryExpressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassowaryExpressUITests.swift; sourceTree = "<group>"; };
+		0FEEF91B2C20744700EFD563 /* CassowaryExpressUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassowaryExpressUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0FEEF9282C20756400EFD563 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		0FEEF92A2C20757A00EFD563 /* MapOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOverlayView.swift; sourceTree = "<group>"; };
+		0FEEF92E2C2075B900EFD563 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		0FEEF9322C2075E800EFD563 /* SharedMapData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedMapData.swift; sourceTree = "<group>"; };
+		0FEEF9402C207F3B00EFD563 /* gtfs-realtime_1007_extension.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "gtfs-realtime_1007_extension.pb.swift"; sourceTree = "<group>"; };
+		0FEEF9452C207FA300EFD563 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		0FEEF9472C2082A500EFD563 /* gtfs-realtime_1007_extension.proto__0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gtfs-realtime_1007_extension.proto__0.txt"; sourceTree = "<group>"; };
+		55DCA911D959D2F9D3BCFDE2 /* Pods-CassowaryExpressTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CassowaryExpressTests.debug.xcconfig"; path = "Target Support Files/Pods-CassowaryExpressTests/Pods-CassowaryExpressTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A4AE2D29FB4DD55A65108FB /* Pods-CassowaryExpress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CassowaryExpress.release.xcconfig"; path = "Target Support Files/Pods-CassowaryExpress/Pods-CassowaryExpress.release.xcconfig"; sourceTree = "<group>"; };
+		7DDA6705351E6D4E1412EA6F /* Pods_CassowaryExpress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CassowaryExpress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1B2783EA654EF2C9EDD3E0 /* Pods-CassowaryExpress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CassowaryExpress.debug.xcconfig"; path = "Target Support Files/Pods-CassowaryExpress/Pods-CassowaryExpress.debug.xcconfig"; sourceTree = "<group>"; };
+		975B1843FEA35AED8F0DDA4B /* Pods-CassowaryExpressTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CassowaryExpressTests.release.xcconfig"; path = "Target Support Files/Pods-CassowaryExpressTests/Pods-CassowaryExpressTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA746240F5941B01D65C58ED /* Pods_CassowaryExpress_CassowaryExpressUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CassowaryExpress_CassowaryExpressUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E236930F030F15F21F09B426 /* Pods-CassowaryExpress-CassowaryExpressUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CassowaryExpress-CassowaryExpressUITests.release.xcconfig"; path = "Target Support Files/Pods-CassowaryExpress-CassowaryExpressUITests/Pods-CassowaryExpress-CassowaryExpressUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FEE1E33D6FCEA6B47360BC4E /* Pods-CassowaryExpress-CassowaryExpressUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CassowaryExpress-CassowaryExpressUITests.debug.xcconfig"; path = "Target Support Files/Pods-CassowaryExpress-CassowaryExpressUITests/Pods-CassowaryExpress-CassowaryExpressUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FEEF8F62C20744100EFD563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5BEF43DAA8B686F888798D /* Pods_CassowaryExpress.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FEEF9082C20744700EFD563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5629C4304A7687C083AE795B /* Pods_CassowaryExpressTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FEEF9122C20744700EFD563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619949DE86A87FBAABC76EB4 /* Pods_CassowaryExpress_CassowaryExpressUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FEEF8F02C20744100EFD563 = {
+			isa = PBXGroup;
+			children = (
+				0FEEF8FB2C20744100EFD563 /* CassowaryExpress */,
+				0FEEF90E2C20744700EFD563 /* CassowaryExpressTests */,
+				0FEEF9182C20744700EFD563 /* CassowaryExpressUITests */,
+				0FEEF8FA2C20744100EFD563 /* Products */,
+				6E400EF7E42501F4B35C7FF1 /* Pods */,
+				3DE0B1F089D0ED3C6837516C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0FEEF8FA2C20744100EFD563 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FEEF8F92C20744100EFD563 /* CassowaryExpress.app */,
+				0FEEF90B2C20744700EFD563 /* CassowaryExpressTests.xctest */,
+				0FEEF9152C20744700EFD563 /* CassowaryExpressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FEEF8FB2C20744100EFD563 /* CassowaryExpress */ = {
+			isa = PBXGroup;
+			children = (
+				0FEEF9452C207FA300EFD563 /* Config.plist */,
+				0FEEF9422C207F5200EFD563 /* Utility */,
+				0FEEF93F2C207F1300EFD563 /* ProtoBuf */,
+				0FEEF92D2C20759600EFD563 /* Model */,
+				0FEEF92C2C20758E00EFD563 /* View */,
+				0FEEF8FC2C20744200EFD563 /* CassowaryExpressApp.swift */,
+				0FEEF9002C20744200EFD563 /* Item.swift */,
+				0FEEF9022C20744600EFD563 /* Assets.xcassets */,
+				0FEEF9042C20744600EFD563 /* Preview Content */,
+			);
+			path = CassowaryExpress;
+			sourceTree = "<group>";
+		};
+		0FEEF9042C20744600EFD563 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0FEEF9052C20744600EFD563 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0FEEF90E2C20744700EFD563 /* CassowaryExpressTests */ = {
+			isa = PBXGroup;
+			children = (
+				0FEEF90F2C20744700EFD563 /* CassowaryExpressTests.swift */,
+			);
+			path = CassowaryExpressTests;
+			sourceTree = "<group>";
+		};
+		0FEEF9182C20744700EFD563 /* CassowaryExpressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0FEEF9192C20744700EFD563 /* CassowaryExpressUITests.swift */,
+				0FEEF91B2C20744700EFD563 /* CassowaryExpressUITestsLaunchTests.swift */,
+			);
+			path = CassowaryExpressUITests;
+			sourceTree = "<group>";
+		};
+		0FEEF92C2C20758E00EFD563 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0FEEF92A2C20757A00EFD563 /* MapOverlayView.swift */,
+				0FEEF9282C20756400EFD563 /* MapView.swift */,
+				0FEEF8FE2C20744200EFD563 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0FEEF92D2C20759600EFD563 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FEEF92E2C2075B900EFD563 /* LocationManager.swift */,
+				0FEEF9322C2075E800EFD563 /* SharedMapData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0FEEF93F2C207F1300EFD563 /* ProtoBuf */ = {
+			isa = PBXGroup;
+			children = (
+				0FEEF9402C207F3B00EFD563 /* gtfs-realtime_1007_extension.pb.swift */,
+				0FEEF9472C2082A500EFD563 /* gtfs-realtime_1007_extension.proto__0.txt */,
+			);
+			path = ProtoBuf;
+			sourceTree = "<group>";
+		};
+		0FEEF9422C207F5200EFD563 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		3DE0B1F089D0ED3C6837516C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DDA6705351E6D4E1412EA6F /* Pods_CassowaryExpress.framework */,
+				DA746240F5941B01D65C58ED /* Pods_CassowaryExpress_CassowaryExpressUITests.framework */,
+				0606EB1EE2686D345E4BE1E3 /* Pods_CassowaryExpressTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E400EF7E42501F4B35C7FF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C1B2783EA654EF2C9EDD3E0 /* Pods-CassowaryExpress.debug.xcconfig */,
+				7A4AE2D29FB4DD55A65108FB /* Pods-CassowaryExpress.release.xcconfig */,
+				FEE1E33D6FCEA6B47360BC4E /* Pods-CassowaryExpress-CassowaryExpressUITests.debug.xcconfig */,
+				E236930F030F15F21F09B426 /* Pods-CassowaryExpress-CassowaryExpressUITests.release.xcconfig */,
+				55DCA911D959D2F9D3BCFDE2 /* Pods-CassowaryExpressTests.debug.xcconfig */,
+				975B1843FEA35AED8F0DDA4B /* Pods-CassowaryExpressTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FEEF8F82C20744100EFD563 /* CassowaryExpress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FEEF91F2C20744700EFD563 /* Build configuration list for PBXNativeTarget "CassowaryExpress" */;
+			buildPhases = (
+				77FF9851070411E212FADDA9 /* [CP] Check Pods Manifest.lock */,
+				0FEEF8F52C20744100EFD563 /* Sources */,
+				0FEEF8F62C20744100EFD563 /* Frameworks */,
+				0FEEF8F72C20744100EFD563 /* Resources */,
+				D19B60E6A61A67ADB90DC34A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CassowaryExpress;
+			productName = CassowaryExpress;
+			productReference = 0FEEF8F92C20744100EFD563 /* CassowaryExpress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0FEEF90A2C20744700EFD563 /* CassowaryExpressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FEEF9222C20744700EFD563 /* Build configuration list for PBXNativeTarget "CassowaryExpressTests" */;
+			buildPhases = (
+				EEA68BFB756FD63D6BC5D949 /* [CP] Check Pods Manifest.lock */,
+				0FEEF9072C20744700EFD563 /* Sources */,
+				0FEEF9082C20744700EFD563 /* Frameworks */,
+				0FEEF9092C20744700EFD563 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FEEF90D2C20744700EFD563 /* PBXTargetDependency */,
+			);
+			name = CassowaryExpressTests;
+			productName = CassowaryExpressTests;
+			productReference = 0FEEF90B2C20744700EFD563 /* CassowaryExpressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0FEEF9142C20744700EFD563 /* CassowaryExpressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FEEF9252C20744700EFD563 /* Build configuration list for PBXNativeTarget "CassowaryExpressUITests" */;
+			buildPhases = (
+				F8700CEEA774D4CCDEB4E316 /* [CP] Check Pods Manifest.lock */,
+				0FEEF9112C20744700EFD563 /* Sources */,
+				0FEEF9122C20744700EFD563 /* Frameworks */,
+				0FEEF9132C20744700EFD563 /* Resources */,
+				83773C56DD7B48FB874CF3D7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FEEF9172C20744700EFD563 /* PBXTargetDependency */,
+			);
+			name = CassowaryExpressUITests;
+			productName = CassowaryExpressUITests;
+			productReference = 0FEEF9152C20744700EFD563 /* CassowaryExpressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FEEF8F12C20744100EFD563 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0FEEF8F82C20744100EFD563 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					0FEEF90A2C20744700EFD563 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 0FEEF8F82C20744100EFD563;
+					};
+					0FEEF9142C20744700EFD563 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 0FEEF8F82C20744100EFD563;
+					};
+				};
+			};
+			buildConfigurationList = 0FEEF8F42C20744100EFD563 /* Build configuration list for PBXProject "CassowaryExpress" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FEEF8F02C20744100EFD563;
+			productRefGroup = 0FEEF8FA2C20744100EFD563 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FEEF8F82C20744100EFD563 /* CassowaryExpress */,
+				0FEEF90A2C20744700EFD563 /* CassowaryExpressTests */,
+				0FEEF9142C20744700EFD563 /* CassowaryExpressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FEEF8F72C20744100EFD563 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEEF9062C20744600EFD563 /* Preview Assets.xcassets in Resources */,
+				0FEEF9462C207FA300EFD563 /* Config.plist in Resources */,
+				0FEEF9482C2082A500EFD563 /* gtfs-realtime_1007_extension.proto__0.txt in Resources */,
+				0FEEF9032C20744600EFD563 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FEEF9092C20744700EFD563 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FEEF9132C20744700EFD563 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77FF9851070411E212FADDA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CassowaryExpress-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83773C56DD7B48FB874CF3D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CassowaryExpress-CassowaryExpressUITests/Pods-CassowaryExpress-CassowaryExpressUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CassowaryExpress-CassowaryExpressUITests/Pods-CassowaryExpress-CassowaryExpressUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CassowaryExpress-CassowaryExpressUITests/Pods-CassowaryExpress-CassowaryExpressUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D19B60E6A61A67ADB90DC34A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CassowaryExpress/Pods-CassowaryExpress-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CassowaryExpress/Pods-CassowaryExpress-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CassowaryExpress/Pods-CassowaryExpress-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEA68BFB756FD63D6BC5D949 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CassowaryExpressTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8700CEEA774D4CCDEB4E316 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CassowaryExpress-CassowaryExpressUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FEEF8F52C20744100EFD563 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEEF8FF2C20744200EFD563 /* ContentView.swift in Sources */,
+				0FEEF9292C20756400EFD563 /* MapView.swift in Sources */,
+				0FEEF92F2C2075B900EFD563 /* LocationManager.swift in Sources */,
+				0FEEF9412C207F3B00EFD563 /* gtfs-realtime_1007_extension.pb.swift in Sources */,
+				0FEEF9012C20744200EFD563 /* Item.swift in Sources */,
+				0FEEF9332C2075E800EFD563 /* SharedMapData.swift in Sources */,
+				0FEEF8FD2C20744200EFD563 /* CassowaryExpressApp.swift in Sources */,
+				0FEEF92B2C20757A00EFD563 /* MapOverlayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FEEF9072C20744700EFD563 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEEF9372C20760E00EFD563 /* SharedMapData.swift in Sources */,
+				0FEEF9392C20761300EFD563 /* LocationManager.swift in Sources */,
+				0FEEF9102C20744700EFD563 /* CassowaryExpressTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FEEF9112C20744700EFD563 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEEF91C2C20744700EFD563 /* CassowaryExpressUITestsLaunchTests.swift in Sources */,
+				0FEEF91A2C20744700EFD563 /* CassowaryExpressUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FEEF90D2C20744700EFD563 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FEEF8F82C20744100EFD563 /* CassowaryExpress */;
+			targetProxy = 0FEEF90C2C20744700EFD563 /* PBXContainerItemProxy */;
+		};
+		0FEEF9172C20744700EFD563 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FEEF8F82C20744100EFD563 /* CassowaryExpress */;
+			targetProxy = 0FEEF9162C20744700EFD563 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FEEF91D2C20744700EFD563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0FEEF91E2C20744700EFD563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FEEF9202C20744700EFD563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C1B2783EA654EF2C9EDD3E0 /* Pods-CassowaryExpress.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CassowaryExpress/Preview Content\"";
+				DEVELOPMENT_TEAM = 5MVY392K82;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow CassowaryExpress access to your current location.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joncastillo.CassowaryExpress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0FEEF9212C20744700EFD563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A4AE2D29FB4DD55A65108FB /* Pods-CassowaryExpress.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CassowaryExpress/Preview Content\"";
+				DEVELOPMENT_TEAM = 5MVY392K82;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow CassowaryExpress access to your current location.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joncastillo.CassowaryExpress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0FEEF9232C20744700EFD563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55DCA911D959D2F9D3BCFDE2 /* Pods-CassowaryExpressTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MVY392K82;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joncastillo.CassowaryExpressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CassowaryExpress.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CassowaryExpress";
+			};
+			name = Debug;
+		};
+		0FEEF9242C20744700EFD563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 975B1843FEA35AED8F0DDA4B /* Pods-CassowaryExpressTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MVY392K82;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joncastillo.CassowaryExpressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CassowaryExpress.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CassowaryExpress";
+			};
+			name = Release;
+		};
+		0FEEF9262C20744700EFD563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEE1E33D6FCEA6B47360BC4E /* Pods-CassowaryExpress-CassowaryExpressUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MVY392K82;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joncastillo.CassowaryExpressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CassowaryExpress;
+			};
+			name = Debug;
+		};
+		0FEEF9272C20744700EFD563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E236930F030F15F21F09B426 /* Pods-CassowaryExpress-CassowaryExpressUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MVY392K82;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joncastillo.CassowaryExpressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CassowaryExpress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FEEF8F42C20744100EFD563 /* Build configuration list for PBXProject "CassowaryExpress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FEEF91D2C20744700EFD563 /* Debug */,
+				0FEEF91E2C20744700EFD563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FEEF91F2C20744700EFD563 /* Build configuration list for PBXNativeTarget "CassowaryExpress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FEEF9202C20744700EFD563 /* Debug */,
+				0FEEF9212C20744700EFD563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FEEF9222C20744700EFD563 /* Build configuration list for PBXNativeTarget "CassowaryExpressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FEEF9232C20744700EFD563 /* Debug */,
+				0FEEF9242C20744700EFD563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FEEF9252C20744700EFD563 /* Build configuration list for PBXNativeTarget "CassowaryExpressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FEEF9262C20744700EFD563 /* Debug */,
+				0FEEF9272C20744700EFD563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FEEF8F12C20744100EFD563 /* Project object */;
+}

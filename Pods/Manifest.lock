@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.9.1)
+  - SwiftProtobuf (1.26.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - SwiftProtobuf
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SwiftProtobuf
+
+SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  SwiftProtobuf: 5e8349171e7c2f88f5b9e683cb3cb79d1dc780b3
+
+PODFILE CHECKSUM: db806dd04cc80f6d2943f941af6cc33ce8beee54
+
+COCOAPODS: 1.15.2
