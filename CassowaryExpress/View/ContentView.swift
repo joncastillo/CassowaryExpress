@@ -17,5 +17,6 @@ struct ContentView: View {
 #Preview {
     ContentView()
         .environmentObject(LocationManager())
+        .environmentObject(BusLocationManager(ConfigUtility()))
         .environmentObject(SharedMapData())
 }

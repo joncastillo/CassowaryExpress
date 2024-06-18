@@ -4,6 +4,7 @@ import SwiftUI
 struct MapOverlayView: View {
     
     @EnvironmentObject var locationManager : LocationManager;
+    @EnvironmentObject var buslocationManager : BusLocationManager;
     
     var body: some View {
         
@@ -15,6 +16,12 @@ struct MapOverlayView: View {
             }) {
                 Text("Center on current location")
             }.padding(.all, 10.0).foregroundColor(Color.white).background(Color.black.opacity(0.75)).cornerRadius(10.0)
+            
+            Button(action: {
+                buslocationManager.refreshGtfsFeed()
+            }) {
+                Text("Refresh buses")
+            }.padding(.all, 10.0).foregroundColor(Color.white).background(Color.black.opacity(0.75)).cornerRadius(10.0)
             .padding()
         }
     }
@@ -23,4 +30,5 @@ struct MapOverlayView: View {
 #Preview {
     MapOverlayView()
         .environmentObject(LocationManager())
+        .environmentObject(BusLocationManager(ConfigUtility()))
 }
